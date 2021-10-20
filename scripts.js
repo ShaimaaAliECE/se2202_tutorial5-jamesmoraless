@@ -75,9 +75,9 @@ function isGameOver()
 {
     // This function returns true if all the buttons are disabled and false otherwise 
     let clickedBtn = true;
-    for (let i = 0; i < butt.length; i++)
+    for (let i = 0; i < btns.length; i++)
     {
-        if (!butt[i].disabled)
+        if (!btns[i].disabled)
         {
             clickedBtn = false;
         }
